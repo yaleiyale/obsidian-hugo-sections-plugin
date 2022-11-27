@@ -24,7 +24,7 @@ export class IndexFactory {
 
   // create folder note
   async newIndex (): Promise<void> {
-    const initContent = '---\ntitle: {{FOLDER_NAME}}\n---\n'
+    const initContent = '---\ntitle: {{FOLDER_NAME}}\n---'
     const noteInitContent = await this.expandContent(initContent)
     await this.app.vault.adapter.write(this.notePath, noteInitContent)
   }
