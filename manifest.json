@@ -3,7 +3,7 @@
 	"name": "HugoSections",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.6",
-	"description": "创建文件夹时在其下创建_index.html以方便在hugo中展现目录格式",
+	"description": "创建文件夹时在其下创建_index.html以供hugo通过sections展示目录结构",
 	"author": "yaleiyale",
 	"authorUrl": "https://github.com/yaleiyale",
 	"isDesktopOnly": false
