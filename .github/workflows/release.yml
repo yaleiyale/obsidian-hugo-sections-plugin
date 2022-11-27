@@ -1,7 +1,8 @@
 name: Release
 on:
   push:
-    tags: ["*"]
+    branches:
+      - main
 env:
   PLUGIN_NAME: obsidian-hugo-sections-plugin
 jobs:
